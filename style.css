@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Aboreto", sans-serif;
+}
+header {
+  height: 70px;
+  border: 1px solid;
+}
+
+header h1 {
+  border: 1px solid;
+  display: inline-block;
+  float: left;
+  padding: 16px 24px;
+  text-transform: uppercase;
+}
+header h1 a {
+  transition: 0.3s;
+}
+header h1 a:hover {
+  color: aquamarine;
+}
+
+header ul {
+  border: 1px solid;
+  float: right;
+}
+
+header ul li {
+  border: 1px solid;
+  padding: 24px;
+  display: inline-block;
+}
+header ul li a {
+  transition: 0.3s;
+}
+
+header ul li a:hover {
+  color: rgb(215, 162, 216);
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+  border: 1px solid;
+}
+
+.container::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.banner {
+  background-color: violet;
+  padding: 100px;
+}
+
+section {
+  padding: 50px;
+}
+
+.banner img {
+  width: 100px;
+  border-radius: 10px;
+  box-shadow: 0 3px 5px #ddd;
+  margin-bottom: 10px;
+}
+.banner h2,
+.banner p {
+  color: rgb(96, 116, 229);
+}
+
+.banner h2 {
+  margin-bottom: 10px;
+}
+
+.banner p {
+  font-size: 20px;
+}
+
+.banner-left {
+  border: 1px solid;
+}
+
+section h3 {
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 20px;
+}
+
+section h3::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -1px;
+  width: 400 px;
+  height: 4px;
+  background-color: cornsilk;
+  left: calc(50% -60px);
+}
+
+#about p {
+  text-align: justify;
+  text-indent: 40px;
+  line-height: 25px;
+  margin-bottom: 15px;
+}
